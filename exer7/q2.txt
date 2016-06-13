@@ -1,0 +1,13 @@
+Clientes:C   Servidor:S
+
+S - O servidor aceita duas conexões, uma para cada jogador(cliente).
+C - O cliente se conecta ao servidor e envia uma string com uma das opções:
+"papel", "pedra" ou "tesoura".
+C - Aguarda que o outro jogador se conecte e tambem envie uma das opções.
+S - Recebe a opção de cada cliente.
+S - Compara as opções escolhidas pelos clientes e envia a resposta de quem
+		venceu e quem perdeu para os clientes sendo que: "papel" vence "pedra",
+		"pedra" vence "tesoura", "tesoura" vence "papel".
+C - Recebe a resposta se venceu ou perdeu.
+C - Encerra a conexão.
+S - Encerra conexões.
